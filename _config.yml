@@ -1,17 +1,21 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: La era del reloj inteligente
+email: smartwatcha@smart.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Un reloj inteligente es un aparato tecnológico de pulsera que posee funcionalidades 
+  que van mas allá de las de un reloj y que hacen de él un dispositivo móvil multifunción. 
+
 baseurl: "/example" # the subpath of your site, e.g. /blog/
 url: "http://jekyll.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: albertomrtn
+github_username:  alu0100836950
 
 # Build settings
 markdown: kramdown
 permalink: /:year/:title:output_ext
 
-theme: jekyll-theme-cayman
+collections:
+  - character
+
+#theme: jekyll-theme-cayman
+#theme: jekyll-theme-minimal

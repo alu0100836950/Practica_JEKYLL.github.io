@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+¿Estás buscando un reloj inteligente que te dé más por menos? Los relojes de la marca Xiaomi están considerados como una de las mejores opciones para elegir entre los smarwatch ya que cuentan con características únicas frente a sus competidores, siendo la gran duración de la batería y la App Mi Fit dos de las ventajas más destacadas.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)

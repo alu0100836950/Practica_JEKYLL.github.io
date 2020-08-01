@@ -4,4 +4,19 @@ title: Contact
 permalink: /contact/
 ---
 
-Hola!! Estamos en contact
+
+<form accept-charset="UTF-8" action="" method="POST" >
+    <div class="form-group">
+        <label for="exampleInputEmail1" required="required">Email address</label>
+        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputName">Name</label>
+        <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Enter your name" required="required">
+    </div>
+    <div class="input-field col s12">
+        <textarea id="textarea1" class="materialize-textarea"></textarea>
+        <label for="textarea1">¿Qué desea saber?</label>
+    </div>
+    <button type="submit" class="btn btn-primary " align="center">Enviar</button>
+</form>

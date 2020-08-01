@@ -4,9 +4,9 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading" align="center">Nuestros relojes más vendidos</h1>
 
-  <ul class="post-list">
+  <!--ul class="post-list">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -16,8 +16,23 @@ layout: default
         </h2>
       </li>
     {% endfor %}
-  </ul>
+  </ul-->
+
+  <div class="row">
+    {% for watch in site.character %}
+      <div class="col s4">
+        <product-watch onclick="select_product('{{watch.title}}')" img ="{{watch.image}}" title="{{watch.title}}" description="{{watch.description}}" link="{{watch.link}}}" price="{{watch.price}}"></product-watch>  
+      </div>
+    {% endfor %}
+  </div>
+
+  <div id="eleccion" class="eleccion">
+    <p id="text-select" class="text-select"> Pulse un producto para seleccionarlo </p>
+  </div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+
+  <script type="text/javascript" src="./assets/js/products.js"></script>
 
 </div>
