@@ -19,7 +19,7 @@ layout: default
   </ul-->
 
   <div class="row">
-    {% for watch in site.character %}
+    {% for watch in site.character limit: 3%}
       <div class="col s4">
         <product-watch onclick="select_product('{{watch.title}}')" img ="{{watch.image}}" title="{{watch.title}}" description="{{watch.description}}" link="{{watch.link}}}" price="{{watch.price}}"></product-watch>  
       </div>

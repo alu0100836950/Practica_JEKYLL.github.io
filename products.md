@@ -6,13 +6,13 @@ permalink: /products/
 
 
 <div class="home">
-    <h2>Todos nuestros productos disponibles</h2>
+    <h2 align="center">Todos nuestros productos disponibles</h2>
     <div class="row">
         {% for watch in site.character %}
-        <div class="col s4">
-            <div class="card grey">
+        <div class="col s4 m3 l4">
+            <div class="card grey" >
                 <div class="card-image">
-                    <img src=".{{watch.image}}">
+                    <img src=".{{watch.image}}" style="height:200px width:150px">
                     <a class="btn-floating waves-effect waves-light red halfway-fab activator">
                     <i class="material-icons icon-plus">add</i>
                     </a>

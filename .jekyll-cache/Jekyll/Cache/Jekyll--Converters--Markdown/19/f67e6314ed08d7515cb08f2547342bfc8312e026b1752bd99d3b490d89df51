@@ -1,0 +1,147 @@
+I"X<div class="home">
+    <h2>Todos nuestros productos disponibles</h2>
+    <div class="row">
+        
+        <div class="col s4">
+            <div class="card grey">
+                &lt;div class="card-image"style="height:200px width:150px"&gt;
+                    <img src="../img/BIP.jpg" />
+                    <a class="btn-floating waves-effect waves-light red halfway-fab activator">
+                    <i class="material-icons icon-plus">add</i>
+                    </a>
+                </div>
+                <div class="card-content">
+                    <span class="card-title">Amazfit BIP</span>
+                    <p>Un reloj inteligente que cumple con los quesitos minimos por un precio bastante asequible.</p>
+                </div>
+                <div class="card-action center">
+                    <a href="https://es.amazfit.com/bip.html">Oficial Site</a>
+                    <a>50€</a>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Los detalles del reloj<i class="material-icons right">close</i><p>Aqui esta todo el contenido del reloj</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s4">
+            <div class="card grey">
+                &lt;div class="card-image"style="height:200px width:150px"&gt;
+                    <img src="../img/GTR.jpg" />
+                    <a class="btn-floating waves-effect waves-light red halfway-fab activator">
+                    <i class="material-icons icon-plus">add</i>
+                    </a>
+                </div>
+                <div class="card-content">
+                    <span class="card-title">Amazfit GTR</span>
+                    <p>Un reloj elegante y clásico que cumplirá todos sus expectativas</p>
+                </div>
+                <div class="card-action center">
+                    <a href="https://es.amazfit.com/gtr.html">Oficial Site</a>
+                    <a>140€</a>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title">Los detalles del reloj<i class="material-icons right">close</i><p>Aqui esta todo el contenido del reloj</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;div class="col s4"&gt;
+        &lt;div class="card grey" &gt;
+            &lt;div class="card-image"style="height:200px width:150px"&gt;
+                &lt;img src="../img/GTS.jpg"&gt;
+                &lt;a class="btn-floating waves-effect waves-light red halfway-fab activator"&gt;
+                &lt;i class="material-icons icon-plus"&gt;add&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="card-content"&gt;
+                &lt;span class="card-title"&gt;Amazfit GTS&lt;/span&gt;
+                &lt;p&gt;Un reloj muy parecido al Apple Watch pero con una calidad/precio inmejorable&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="card-action center"&gt;
+                &lt;a href="https://es.amazfit.com/gts.html"&gt;Oficial Site&lt;/a&gt;
+                &lt;a&gt;130€&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="card-reveal"&gt;
+                &lt;span class="card-title"&gt;Los detalles del reloj&lt;i class="material-icons right"&gt;close&lt;/i&gt;&lt;p&gt;Aqui esta todo el contenido del reloj&lt;/p&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class="col s4"&gt;
+        &lt;div class="card grey" &gt;
+            &lt;div class="card-image"style="height:200px width:150px"&gt;
+                &lt;img src="../img/MIBAND.jpg"&gt;
+                &lt;a class="btn-floating waves-effect waves-light red halfway-fab activator"&gt;
+                &lt;i class="material-icons icon-plus"&gt;add&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="card-content"&gt;
+                &lt;span class="card-title"&gt;MiBand 4&lt;/span&gt;
+                &lt;p&gt;Para los amantes de la tecnología pero sin perder la vista de una pulsera.&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="card-action center"&gt;
+                &lt;a href=""&gt;Oficial Site&lt;/a&gt;
+                &lt;a&gt;25€&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="card-reveal"&gt;
+                &lt;span class="card-title"&gt;Los detalles del reloj&lt;i class="material-icons right"&gt;close&lt;/i&gt;&lt;p&gt;Aqui esta todo el contenido del reloj&lt;/p&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class="col s4"&gt;
+        &lt;div class="card grey" &gt;
+            &lt;div class="card-image"style="height:200px width:150px"&gt;
+                &lt;img src="../img/PACE.jpg"&gt;
+                &lt;a class="btn-floating waves-effect waves-light red halfway-fab activator"&gt;
+                &lt;i class="material-icons icon-plus"&gt;add&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="card-content"&gt;
+                &lt;span class="card-title"&gt;Amazfit PACE&lt;/span&gt;
+                &lt;p&gt;Un reloj simple diseñado para cumplir los reqisitos en el entrenamiento&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="card-action center"&gt;
+                &lt;a href="https://es.amazfit.com/pace.html"&gt;Oficial Site&lt;/a&gt;
+                &lt;a&gt;100€&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="card-reveal"&gt;
+                &lt;span class="card-title"&gt;Los detalles del reloj&lt;i class="material-icons right"&gt;close&lt;/i&gt;&lt;p&gt;Aqui esta todo el contenido del reloj&lt;/p&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class="col s4"&gt;
+        &lt;div class="card grey" &gt;
+            &lt;div class="card-image"style="height:200px width:150px"&gt;
+                &lt;img src="../img/VERSE.jpg"&gt;
+                &lt;a class="btn-floating waves-effect waves-light red halfway-fab activator"&gt;
+                &lt;i class="material-icons icon-plus"&gt;add&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="card-content"&gt;
+                &lt;span class="card-title"&gt;Amazfit VERSE&lt;/span&gt;
+                &lt;p&gt;Un reloj inteligente con capacidad de realizar llamadas telefónicas y guardando un diseño deportivo.&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="card-action center"&gt;
+                &lt;a href="https://es.amazfit.com/verge.html"&gt;Oficial Site&lt;/a&gt;
+                &lt;a&gt;125€&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="card-reveal"&gt;
+                &lt;span class="card-title"&gt;Los detalles del reloj&lt;i class="material-icons right"&gt;close&lt;/i&gt;&lt;p&gt;Aqui esta todo el contenido del reloj&lt;/p&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+
+:ET
